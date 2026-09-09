@@ -9,7 +9,7 @@ import { MyExpo } from "./components/MyExpo";
 import { SaveButton } from "./components/SaveButton";
 import { SectionTitle } from "./components/SectionTitle";
 import { Reveal } from "./components/Reveal";
-import { AGENDA_ITEMS, CONTENT_LABEL, CONTEXT_IMAGES, EXHIBITORS, FAQ_ITEMS, PROVISIONAL_LABEL } from "./data";
+import { AGENDA_ITEMS, CONTENT_LABEL, CONTEXT_IMAGES, EXHIBITORS, FAQ_ITEMS, PROVISIONAL_LABEL, publicAsset } from "./data";
 import { useMyExpo } from "./hooks/useMyExpo";
 
 const VALUES = [
@@ -186,12 +186,12 @@ export function App() {
 
         <section id="contacto" className="contact section-anchor" aria-labelledby="contact-title">
           <div className="shell contact-inner">
-            <div><p className="eyebrow">Contacto</p><h2 id="contact-title">Seguimos en conexión.</h2><p>Los canales de atención, redes y vías de participación se enlazarán aquí al momento de su confirmación oficial.</p><div className="contact-brand"><img src="/brand/expojuy26-isologotipo.png" alt="ExpoJuy 2026" /><span>Identidad local autorizada</span></div></div>
+            <div><p className="eyebrow">Contacto</p><h2 id="contact-title">Seguimos en conexión.</h2><p>Los canales de atención, redes y vías de participación se enlazarán aquí al momento de su confirmación oficial.</p><div className="contact-brand"><img src={publicAsset("brand/expojuy26-isologotipo.png")} alt="ExpoJuy 2026" /><span>Identidad local autorizada</span></div></div>
             <div className="contact-state"><span className="provisional-tag">{PROVISIONAL_LABEL}</span><strong>Canales oficiales próximamente</strong><p>Este prototipo no incluye enlaces, formularios ni integraciones de contacto.</p></div>
           </div>
         </section>
       </main>
-      <footer><div className="shell footer-inner"><img src="/brand/expojuy26-isologotipo.png" alt="ExpoJuy 2026" /><p>Prototipo conceptual de navegación · Contenido demostrativo</p><a href="#inicio">Volver arriba ↑</a></div></footer>
+      <footer><div className="shell footer-inner"><img src={publicAsset("brand/expojuy26-isologotipo.png")} alt="ExpoJuy 2026" /><p>Prototipo conceptual de navegación · Contenido demostrativo</p><a href="#inicio">Volver arriba ↑</a></div></footer>
       <p className="sr-only" aria-live="polite" aria-atomic="true">{announcement}</p>
       <dialog
         ref={ticketDialogRef}

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import { NAV_ITEMS } from "../data";
+import { NAV_ITEMS, publicAsset } from "../data";
 
 export interface TicketOpenRequest {
   trigger: HTMLButtonElement;
@@ -39,7 +39,7 @@ export function Header({ onTicketsClick }: HeaderProps) {
       <a className="skip-link" href="#contenido">Saltar al contenido principal</a>
       <div className="shell header-inner">
         <a className="brand" href="#inicio" aria-label="ExpoJuy 2026, ir al inicio" onClick={handleNavigation}>
-          <img src="/brand/expojuy26-horizontal.png" alt="ExpoJuy 2026, conectando países, creando oportunidades" />
+          <img src={publicAsset("brand/expojuy26-horizontal.png")} alt="ExpoJuy 2026, conectando países, creando oportunidades" />
         </a>
         <button
           ref={menuButtonRef}

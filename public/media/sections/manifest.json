@@ -107,6 +107,33 @@
       "topic": "Ruta Nacional 52 entre Paso de Jama y Purmamarca",
       "alt": "Ruta Nacional 52 entre el Paso de Jama y Purmamarca, entre montañas de Jujuy.",
       "caption": "Ruta Nacional 52 entre el Paso de Jama y Purmamarca, Jujuy."
+    },
+    {
+      "localPaths": [
+        "../territorio-en-movimiento.mp4",
+        "../territorio-en-movimiento.webm"
+      ],
+      "title": "Territorio en movimiento",
+      "mediaType": "video",
+      "durationSeconds": 11.2,
+      "width": 960,
+      "height": 540,
+      "audio": "none",
+      "sourceImages": [
+        "territory-purmamarca.webp",
+        "territory-quebrada.webp",
+        "territory-salinas.webp",
+        "sector-cauchari.webp",
+        "corridor-paso-jama.webp"
+      ],
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "scope": "La licencia cubre esta adaptación audiovisual y las cinco imágenes fuente indicadas."
+      },
+      "brandExclusion": "Los nombres y marcas de ExpoJuy, y cualquier otro activo oficial de marca, están excluidos de esta licencia.",
+      "usageNotice": "La imaginería y el reel son ilustrativos y no documentan ExpoJuy 2026, su sede, agenda, participantes ni actividades.",
+      "modifications": "Edición original con panorámicas y acercamientos, transiciones, trazas de corredor, marcadores de actividad productiva y capas de color cyan, violeta y crema; sin audio."
     }
   ]
 }

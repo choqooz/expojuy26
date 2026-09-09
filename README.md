@@ -2,6 +2,8 @@
 
 Prototipo de una experiencia digital para ExpoJuy 2026. Demuestra arquitectura de información, identidad visual, navegación y planificación local; no es un sitio oficial ni un sistema operativo del evento.
 
+Demo: https://choqooz.github.io/expojuy26/
+
 ## Inicio rápido
 
 ```bash
@@ -24,14 +26,6 @@ npm run dev
 - `Mi Expo`: selección local de intereses, actividades y expositores demostrativos, persistida en `localStorage` sin cuentas, backend ni datos personales.
 - Estado accesible `Próximamente` para entradas. No simula pagos, proveedores ni procesos de compra.
 
-## Política de imágenes de Jujuy
-
-Las fotografías locales son imágenes contextuales e ilustrativas de Jujuy. No documentan ExpoJuy 2026, su sede, agenda, expositores, autoridades, patrocinadores ni participantes. Cada uso visible se identifica como **Imagen ilustrativa** y conserva un texto alternativo factual.
-
-La procedencia, las licencias, los enlaces de fuente, los hashes SHA-256, los recortes y los textos alternativos están documentados en [`public/media/ATTRIBUTION.md`](public/media/ATTRIBUTION.md). El inventario de consumo local está en [`public/media/sections/manifest.json`](public/media/sections/manifest.json). No se realizan solicitudes de imágenes remotas en tiempo de ejecución.
-
-No se reutilizó ningún medio de los cuatro sitios de referencia: ExpoJuy 2024, Expo Industrias, Expo Logisti-k y Argentina Mining. Tampoco se reutilizaron sus fotografías, videos, logos, ilustraciones, CSS, código, textos ni layouts.
-
 ## Instituciones y patrocinios
 
 La interfaz separa explícitamente los roles:
@@ -42,12 +36,6 @@ La interfaz separa explícitamente los roles:
 
 No se presentan a organizadores o instituciones acompañantes como sponsors. Las marcas de muestra usan símbolos geométricos originales, no logotipos externos ni identidades de empresas reales.
 
-## Límites provisionales
-
-No se inventan fechas, sede, precios, participantes, patrocinios, noticias, estadísticas, URLs oficiales ni proveedores. Las actividades, los expositores, el mapa y las novedades permanecen identificados como contenido demostrativo, conceptual o provisional hasta recibir confirmación oficial.
-
-`Territorio en movimiento` es una adaptación audiovisual conceptual, silenciosa y original, editada exclusivamente a partir de cinco imágenes locales de Jujuy con atribución documentada. Se reproduce automáticamente y en bucle cuando el navegador no solicita reducción de movimiento ni ahorro de datos; en esos modos permanece pausada. No reutiliza metraje, audio ni gráficos de sitios de referencia y no es una grabación de ExpoJuy 2026. Sus archivos, fuentes, licencia CC BY-SA 4.0 y exclusión de las marcas oficiales constan en [`public/media/ATTRIBUTION.md`](public/media/ATTRIBUTION.md).
-
 ## Diseño, accesibilidad y respuesta
 
 La dirección visual usa la tipografía Ambit y la paleta autorizada de cyan, violeta, lila y grafito. Incluye objetivos táctiles mínimos de 44 px, navegación por teclado, foco visible, enlace para saltar al contenido, landmarks semánticos, `aria-live` para Mi Expo, FAQ nativo y respeto por preferencias de reducción de movimiento y ahorro de datos.
@@ -55,7 +43,3 @@ La dirección visual usa la tipografía Ambit y la paleta autorizada de cyan, vi
 ## Fuera de alcance
 
 No incluye backend, CMS, autenticación, analítica, seguimiento, servicios de mapas, formularios, pagos, integraciones externas, publicación de datos oficiales ni gestión de contenidos de producción.
-
-## Entrega requerida
-
-El único archivo obligatorio de primera etapa incluido en el repositorio es la [memoria descriptiva en PDF](docs/entrega/memoria-descriptiva.pdf). La declaración de uso responsable de IA está incorporada en ese documento. El código fuente es un prototipo navegable opcional.

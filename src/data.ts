@@ -2,6 +2,10 @@ export const CONTENT_LABEL = "Contenido demostrativo";
 export const PROVISIONAL_LABEL = "Información provisional";
 export const ILLUSTRATIVE_IMAGE_LABEL = "Imagen ilustrativa";
 
+export function publicAsset(path: string): string {
+  return `${import.meta.env.BASE_URL}${path}`;
+}
+
 export const NAV_ITEMS = [
   { label: "Inicio", target: "inicio" },
   { label: "ExpoJuy 2026", target: "expojuy" },
@@ -107,7 +111,7 @@ export interface ContextImageAsset {
 
 export const CONTEXT_IMAGES = {
   purmamarca: {
-    src: "/media/sections/territory-purmamarca.webp",
+    src: publicAsset("media/sections/territory-purmamarca.webp"),
     alt: "Panorámica del Cerro de los Siete Colores en Purmamarca, Jujuy.",
     caption: "Cerro de los Siete Colores en Purmamarca, Jujuy.",
     width: 1600,
@@ -115,7 +119,7 @@ export const CONTEXT_IMAGES = {
     objectPosition: "center",
   },
   quebrada: {
-    src: "/media/sections/territory-quebrada.webp",
+    src: publicAsset("media/sections/territory-quebrada.webp"),
     alt: "Vista panorámica de la Quebrada de Humahuaca cerca de Tilcara, con montañas estratificadas, valle cultivado y cactus.",
     caption: "Quebrada de Humahuaca cerca de Tilcara, Jujuy.",
     width: 1280,
@@ -123,7 +127,7 @@ export const CONTEXT_IMAGES = {
     objectPosition: "center 42%",
   },
   salinas: {
-    src: "/media/sections/territory-salinas.webp",
+    src: publicAsset("media/sections/territory-salinas.webp"),
     alt: "Salinas Grandes, entre Jujuy y Salta, con planicie salina, montañas andinas y cielo nublado.",
     caption: "Salinas Grandes entre Jujuy y Salta.",
     width: 1280,
@@ -131,7 +135,7 @@ export const CONTEXT_IMAGES = {
     objectPosition: "center",
   },
   olaroz: {
-    src: "/media/sections/sector-olaroz.webp",
+    src: publicAsset("media/sections/sector-olaroz.webp"),
     alt: "Imagen satelital en falso color del Salar de Olaroz, Jujuy, con el salar blanco, estanques de evaporación y relieve circundante.",
     caption: "Imagen satelital en falso color del Salar de Olaroz, Jujuy.",
     width: 1280,
@@ -139,7 +143,7 @@ export const CONTEXT_IMAGES = {
     objectPosition: "center",
   },
   cauchari: {
-    src: "/media/sections/sector-cauchari.webp",
+    src: publicAsset("media/sections/sector-cauchari.webp"),
     alt: "Paneles solares de Cauchari III con el paisaje altoandino de Jujuy al fondo.",
     caption: "Paneles solares de Cauchari III, Jujuy.",
     width: 1280,
@@ -147,7 +151,7 @@ export const CONTEXT_IMAGES = {
     objectPosition: "center 54%",
   },
   pasoJama: {
-    src: "/media/sections/corridor-paso-jama.webp",
+    src: publicAsset("media/sections/corridor-paso-jama.webp"),
     alt: "Cordillera de los Andes en el Paso de Jama, Jujuy, con cumbres nevadas y una ruta en primer plano.",
     caption: "Cordillera andina en el Paso de Jama, Jujuy.",
     width: 1280,
@@ -155,7 +159,7 @@ export const CONTEXT_IMAGES = {
     objectPosition: "center",
   },
   ruta52: {
-    src: "/media/sections/corridor-ruta-52.webp",
+    src: publicAsset("media/sections/corridor-ruta-52.webp"),
     alt: "Ruta Nacional 52 entre el Paso de Jama y Purmamarca, entre montañas de Jujuy.",
     caption: "Ruta Nacional 52 entre el Paso de Jama y Purmamarca, Jujuy.",
     width: 1280,

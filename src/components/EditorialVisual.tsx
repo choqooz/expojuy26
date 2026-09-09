@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
+import { publicAsset } from "../data";
+
 const VISUAL_VARIANTS = {
   heroMap: "hero-map",
   itinerary: "itinerary",
@@ -108,7 +110,7 @@ export function BrandMotionStage() {
 
   return (
     <section className="brand-motion-stage" aria-label="Territorio en movimiento">
-      {!hasMediaError && <video ref={videoRef} className="brand-motion-video" muted playsInline autoPlay={canAutoplay} loop preload={canAutoplay ? "auto" : "none"} aria-hidden="true" onCanPlay={handleCanPlay} onError={handleMediaError}><source src="/media/territorio-en-movimiento.webm" type="video/webm" /><source src="/media/territorio-en-movimiento.mp4" type="video/mp4" /></video>}
+      {!hasMediaError && <video ref={videoRef} className="brand-motion-video" muted playsInline autoPlay={canAutoplay} loop preload={canAutoplay ? "auto" : "none"} aria-hidden="true" onCanPlay={handleCanPlay} onError={handleMediaError}><source src={publicAsset("media/territorio-en-movimiento.webm")} type="video/webm" /><source src={publicAsset("media/territorio-en-movimiento.mp4")} type="video/mp4" /></video>}
       {hasMediaError && <div className="brand-motion-fallback" role="status">El contenido audiovisual no está disponible en este momento.</div>}
     </section>
   );
