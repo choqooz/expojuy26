@@ -104,7 +104,7 @@ Las derivaciones bajo licencias CC BY-SA se distribuyen bajo la misma licencia d
 
 ## Reel audiovisual `Territorio en movimiento`
 
-- **Archivos locales:** `territorio-en-movimiento.mp4`, `territorio-en-movimiento.webm` y `territorio-en-movimiento-poster.jpg`.
+- **Archivos locales:** `territorio-en-movimiento.mp4` y `territorio-en-movimiento.webm`.
 - **Naturaleza:** adaptación audiovisual conceptual y silenciosa; no es una grabación de ExpoJuy 2026, su sede, agenda ni participantes.
 - **Imágenes fuente incluidas:** `sections/territory-purmamarca.webp`, `sections/territory-quebrada.webp`, `sections/territory-salinas.webp`, `sections/sector-cauchari.webp` y `sections/corridor-paso-jama.webp`.
 - **Relación de procedencia:** las cinco imágenes fuente fueron obtenidas el 2026-09-08 y están documentadas en los registros anteriores de este archivo con sus autores, páginas de origen, enlaces directos y hashes SHA-256.
@@ -112,6 +112,5 @@ Las derivaciones bajo licencias CC BY-SA se distribuyen bajo la misma licencia d
 - **Resolución y duración:** 960×540; 11,20 segundos; 25 fps.
 - **MP4:** H.264, `yuv420p`, sin flujo de audio, 4106170 bytes.
 - **WebM:** VP9, `yuv420p`, sin flujo de audio, 2796293 bytes.
-- **Poster:** JPEG, 960×540, 175847 bytes; fotograma representativo de la composición final del Paso de Jama.
 - **Licencia de la adaptación:** CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/.
 - **Alcance de la licencia:** la licencia CC BY-SA 4.0 cubre la adaptación audiovisual y las cinco imágenes fuente indicadas. Los nombres y marcas de ExpoJuy, y cualquier otro activo oficial de marca, quedan excluidos de esa licencia y no están incorporados dentro del reel.

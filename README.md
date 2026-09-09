@@ -56,6 +56,6 @@ La dirección visual usa la tipografía Ambit y la paleta autorizada de cyan, vi
 
 No incluye backend, CMS, autenticación, analítica, seguimiento, servicios de mapas, formularios, pagos, integraciones externas, publicación de datos oficiales ni gestión de contenidos de producción.
 
-## Entrega
+## Entrega requerida
 
-La memoria descriptiva obligatoria, la declaración de uso de IA, las instrucciones de ejecución y los controles de presentación se encuentran en [`docs/entrega/README.md`](docs/entrega/README.md).
+El único archivo obligatorio de primera etapa incluido en el repositorio es la [memoria descriptiva en PDF](docs/entrega/memoria-descriptiva.pdf). La declaración de uso responsable de IA está incorporada en ese documento. El código fuente es un prototipo navegable opcional.
