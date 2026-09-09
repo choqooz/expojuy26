@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Memoria descriptiva — ExpoJuy 2026</title>
+    <style>
+      :root { --ink: #28272c; --violet: #7b27cf; --cyan: #2db8cd; --paper: #f8f7f4; --rule: #d8d4dc; }
+      * { box-sizing: border-box; }
+      body { max-width: 210mm; margin: 0 auto; padding: 16mm; background: var(--paper); color: var(--ink); font: 10.5pt/1.48 Arial, sans-serif; }
+      header { padding: 16mm; background: var(--ink); color: white; }
+      h1, h2, h3 { line-height: 1.05; }
+      h1 { max-width: 10ch; margin: 0; font-size: 34pt; letter-spacing: -.05em; }
+      h1 em { color: var(--cyan); font-style: normal; }
+      h2 { margin: 10mm 0 4mm; padding-top: 3mm; border-top: 2px solid var(--violet); font-size: 19pt; letter-spacing: -.035em; }
+      h3 { margin: 6mm 0 2mm; font-size: 12pt; }
+      p, li { max-width: 165mm; }
+      ul { padding-left: 5mm; }
+      li + li { margin-top: 1.5mm; }
+      .eyebrow { margin: 0 0 5mm; color: var(--cyan); font-size: 8pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+      .subtitle { max-width: 30em; margin: 6mm 0 0; color: #d9d7dc; font-size: 14pt; }
+      .meta { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin: 8mm 0 0; background: #5b5960; }
+      .meta div { padding: 4mm; background: var(--ink); font-size: 8.5pt; }
+      .meta strong { display: block; color: var(--cyan); font-size: 7pt; letter-spacing: .08em; text-transform: uppercase; }
+      .notice { margin: 6mm 0; padding: 4mm 5mm; border-left: 4px solid var(--cyan); background: #e4f5f7; }
+      table { width: 100%; border-collapse: collapse; margin: 4mm 0 6mm; font-size: 9pt; }
+      th, td { padding: 3mm; border: 1px solid var(--rule); text-align: left; vertical-align: top; }
+      th { background: var(--ink); color: white; }
+      .status { color: var(--violet); font-weight: 700; }
+      .check { color: #286b37; font-weight: 700; }
+      footer { margin-top: 12mm; padding-top: 4mm; border-top: 1px solid var(--rule); color: #68666b; font-size: 8pt; }
+      @page { margin: 12mm; size: A4; }
+      @media print { body { max-width: none; padding: 0; background: white; } header { break-after: page; } h2 { break-after: avoid; } table, .notice { break-inside: avoid; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="eyebrow">Desafío Digital ExpoJuy 2026 · Primera etapa</p>
+      <h1>Jujuy conecta <em>lo que viene.</em></h1>
+      <p class="subtitle">Memoria descriptiva de una propuesta conceptual, visual y navegable para la futura plataforma oficial de ExpoJuy 2026.</p>
+      <div class="meta">
+        <div><strong>Equipo</strong>PENDIENTE DE COMPLETAR</div>
+        <div><strong>Representante</strong>PENDIENTE DE COMPLETAR</div>
+        <div><strong>Fecha de entrega</strong>8 de septiembre de 2026 a las 23:59 horas, hora oficial de la República Argentina</div>
+        <div><strong>Instancia presencial</strong>Demo Day · 14 de septiembre de 2026</div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Síntesis de la propuesta</h2>
+        <p><strong>Jujuy conecta lo que viene</strong> propone una experiencia digital que ordena la información del evento alrededor de los vínculos entre producción, tecnología, conocimiento, comercio y territorio. La interfaz funciona como una maqueta navegable para validar la arquitectura, el lenguaje visual y las interacciones prioritarias; no se presenta como el sitio operativo ni como información oficial de ExpoJuy 2026.</p>
+        <p>La propuesta privilegia la claridad: distingue contenido confirmado, demostrativo y pendiente de confirmación; evita inventar datos de agenda, entradas, sedes, participantes, patrocinadores o canales oficiales. Así preserva la confianza del público mientras prepara una base escalable para la etapa de desarrollo.</p>
+        <div class="notice"><strong>Alcance de primera etapa.</strong> El desarrollo funcional incluido es opcional y se usa como soporte de evaluación del prototipo. Las funciones de producción, integraciones y contenidos oficiales quedan expresamente fuera de alcance hasta la definición de la organización.</div>
+      </section>
+
+      <section>
+        <h2>2. Objetivos</h2>
+        <ul>
+          <li>Traducir innovación, tecnología, producción, desarrollo, vinculación empresarial y Economía del Conocimiento en una navegación comprensible.</li>
+          <li>Ofrecer un recorrido de baja fricción para conocer la propuesta, explorar agenda y expositores, orientarse y anticipar la futura información operativa.</li>
+          <li>Establecer una identidad visual contemporánea, territorial y original, adaptable al kit de diseño que provea la organización.</li>
+          <li>Demostrar factibilidad técnica, accesibilidad y adaptación móvil desde el prototipo.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Arquitectura de información y organización del contenido</h2>
+        <p>La navegación de una sola página prioriza las decisiones frecuentes y conserva anclas directas para cada bloque. La estructura propuesta contempla las secciones mínimas solicitadas y deja preparado el crecimiento posterior.</p>
+        <table>
+          <thead><tr><th>Sección</th><th>Propósito en la propuesta</th><th>Estado del contenido</th></tr></thead>
+          <tbody>
+            <tr><td>Inicio y Sobre ExpoJuy 2026</td><td>Presentar el concepto, los valores y los accesos rápidos.</td><td>Conceptual</td></tr>
+            <tr><td>Mi Expo, Agenda y Expositores</td><td>Permitir armar un recorrido local con intereses, actividades y fichas.</td><td>Demostrativo; sin datos oficiales</td></tr>
+            <tr><td>Mapa o plano</td><td>Explicar conexiones territoriales mediante cinco zonas conceptuales.</td><td>No representa predio, sede ni proveedor de mapas</td></tr>
+            <tr><td>Noticias</td><td>Reservar un patrón para futuras actualizaciones oficiales.</td><td>Provisional</td></tr>
+            <tr><td>Instituciones, sponsors, FAQ y contacto</td><td>Diferenciar roles, resolver dudas y comunicar límites de información.</td><td>Instituciones según bases; sponsors de muestra y contacto pendiente</td></tr>
+          </tbody>
+        </table>
+        <p>La futura evolución puede sumar buscador de expositores, filtros por rubro, agenda con fechas reales, mapa del predio, gestión de entradas, formularios, redes sociales y un panel editorial. Ninguna de estas integraciones se simula en el prototipo.</p>
+      </section>
+
+      <section>
+        <h2>4. Criterios de UX e interfaz</h2>
+        <ul>
+          <li><strong>Jerarquía editorial:</strong> titulares breves, acciones visibles y contenido agrupado por intención de visita.</li>
+          <li><strong>Confianza:</strong> rótulos de contenido demostrativo, conceptual o provisional donde la información aún no fue confirmada.</li>
+          <li><strong>Orientación:</strong> navegación por anclas, accesos rápidos, mapa conceptual y preguntas frecuentes con elementos nativos.</li>
+          <li><strong>Participación sin cuenta:</strong> “Mi Expo” conserva solamente selecciones locales en el dispositivo; no recopila datos personales.</li>
+          <li><strong>Interacciones acotadas:</strong> el estado de entradas informa “Próximamente” mediante un diálogo accesible, sin pagos ni proveedores simulados.</li>
+        </ul>
+        <p>La dirección visual combina tipografía Ambit, grafito, violeta, lila y cyan, con gráficos territoriales SVG originales y fotografía contextual local. Las imágenes visibles son ilustrativas de Jujuy, tienen texto alternativo factual y no se presentan como registro de ExpoJuy 2026.</p>
+      </section>
+
+      <section>
+        <h2>5. Tecnologías previstas y factibilidad</h2>
+        <table>
+          <thead><tr><th>Área</th><th>Decisión</th><th>Razón</th></tr></thead>
+          <tbody>
+            <tr><td>Interfaz</td><td>React 19, TypeScript y Vite</td><td>Componentización, tipado estricto y entrega estática rápida.</td></tr>
+            <tr><td>Estilos</td><td>CSS moderno con Tailwind CSS como capa de compilación</td><td>Control visual preciso, diseño responsivo y mantenimiento simple.</td></tr>
+            <tr><td>Recursos</td><td>SVG original, WebP local y video WebM/MP4 local</td><td>Evita solicitudes remotas en tiempo de ejecución y permite controlar procedencia y peso.</td></tr>
+            <tr><td>Publicación futura</td><td>Hosting y dominio provistos por la Cámara de Comercio Exterior de Jujuy</td><td>La solución estática puede desplegarse en la infraestructura oficial definida por la organización.</td></tr>
+          </tbody>
+        </table>
+        <p>Para producción se propone separar la capa editorial y las integraciones del frontend: un origen validado para agenda, expositores, noticias y entradas; controles de acceso y auditoría; y una API o CMS seleccionados junto con la organización. Estas decisiones no están implementadas en el prototipo.</p>
+      </section>
+
+      <section>
+        <h2>6. Accesibilidad, respuesta y rendimiento</h2>
+        <h3>Accesibilidad</h3>
+        <ul>
+          <li>Landmarks semánticos, enlace para saltar al contenido, navegación por teclado y foco visible.</li>
+          <li>Controles táctiles de al menos 44 px, contraste reforzable y diálogos con foco inicial y restauración de foco al cerrar.</li>
+          <li>Estado anunciado con <em>aria-live</em> en “Mi Expo”, FAQ con <em>details/summary</em> nativo y alternativas textuales para contenido visual.</li>
+          <li>Respeto por <em>prefers-reduced-motion</em>: el reel queda pausado y las transiciones no esenciales se eliminan.</li>
+        </ul>
+        <h3>Estrategia responsive</h3>
+        <p>El diseño se construye desde 320 px con columnas apiladas, acciones táctiles y lectura lineal; a partir de 48 rem reorganiza navegación, grillas, agenda, sponsors y pie. La evidencia incluye una captura completa desde viewport de escritorio de 1440 × 900 px (PNG de salida de 1425 × 9733 px) y una desde viewport móvil de 390 × 844 px (PNG de salida de 375 × 13237 px).</p>
+        <h3>Rendimiento</h3>
+        <p>Las imágenes se sirven en WebP local con dimensiones declaradas, carga diferida, decodificación asíncrona y textos alternativos. El reel es local, silencioso, en bucle, sin controles ni superposiciones en funcionamiento normal. Se pausa cuando hay reducción de movimiento; con ahorro de datos evita reproducción automática y precarga. No hay analítica, fuentes externas ni solicitudes de imágenes remotas en tiempo de ejecución.</p>
+      </section>
+
+      <section>
+        <h2>7. Uso responsable de Inteligencia Artificial</h2>
+        <p>Se utilizó asistencia generativa de OpenAI como apoyo para ideación, redacción, revisión de código, documentación y controles de calidad. No se delegaron a la IA las decisiones de alcance ni la responsabilidad sobre la propuesta.</p>
+        <p>El equipo revisa y valida cada resultado; las imágenes locales conservan su procedencia y licencia documentadas en el proyecto; los símbolos de sponsors y gráficos territoriales son originales; y no se reutilizan diseños, textos, código, logos ni recursos gráficos de los sitios de referencia. La declaración ampliada se entrega por separado.</p>
+      </section>
+
+      <section>
+        <h2>8. Originalidad, licencias y límites</h2>
+        <ul>
+          <li>La propuesta no replica total ni parcialmente los sitios de referencia indicados por la convocatoria.</li>
+          <li>Las fotografías contextuales de Jujuy tienen atribución, fuente, licencia, hash y uso documentados internamente en <code>public/media/ATTRIBUTION.md</code>.</li>
+          <li>Las cuatro marcas de sponsor son demostrativas, originales y no representan empresas reales ni patrocinadores confirmados.</li>
+          <li>El mapa es un esquema conceptual: no afirma ser plano de predio, ubicación, ruta operativa ni servicio de mapas.</li>
+          <li>Las fechas, participantes, agenda, entradas, canales y contenidos oficiales deberán reemplazarse solo con confirmación de la organización.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>9. Matriz de verificación</h2>
+        <table>
+          <thead><tr><th>Criterio del desafío</th><th>Evidencia en la propuesta</th></tr></thead>
+          <tbody>
+            <tr><td>Diseño visual e identidad</td><td>Lenguaje editorial propio, gráficos SVG originales, identidad territorial y adaptación prevista al kit oficial.</td></tr>
+            <tr><td>Arquitectura y UX</td><td>Navegación por intención, secciones mínimas, Mi Expo, FAQ y estados claros de contenido.</td></tr>
+            <tr><td>Accesibilidad y móvil</td><td>Semántica, foco, teclado, preferencias de movimiento y viewport móvil verificado en 390 × 844 px; la evidencia completa resultante mide 375 × 13237 px.</td></tr>
+            <tr><td>Factibilidad y escalabilidad</td><td>React, TypeScript, compilación estática, recursos locales y propuesta de capa editorial futura.</td></tr>
+            <tr><td>Innovación y originalidad</td><td>Relato territorial, reel local, tratamiento honesto de información provisoria y ausencia de reutilización de referencias.</td></tr>
+            <tr><td>Uso responsable de IA</td><td>Declaración específica, revisión humana y trazabilidad de recursos locales.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>10. Checklist de presentación</h2>
+        <ul>
+          <li class="check">Memoria descriptiva en PDF.</li>
+          <li class="check">Prototipo navegable local con instrucciones de ejecución.</li>
+          <li class="check">Tecnologías propuestas y declaración de uso de IA.</li>
+          <li class="check">Evidencia de escritorio y móvil.</li>
+          <li class="status">PENDIENTE DE COMPLETAR: integrantes, representante, enlace al mockup y enlace al formulario oficial de inscripción.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>Documento editable fuente: <code>docs/entrega/memoria-descriptiva.html</code> · La versión de presentación es <code>docs/entrega/memoria-descriptiva.pdf</code>.</footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+node_modules/
+dist/
+.vite/
+.playwright-mcp/
+*.log
+.env
+.env.*
+!.env.example
+*.local
+*.tmp
+*.temp
+*.swp
+*.swo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+/ref-*.png
+/live-audit-*.png
+/commons-industrial-tech-search.png
+/desktop-full.png
+/mobile-full.png
+/expojuy26-current-full.png
+/expojuy26-final-desktop.png
+/territorio-desktop.png
+/Argentina Mining Norte 2026.html
+/Argentina Mining Norte 2026_files/
+/ExpoJuy 2024 _ Home.html
+/ExpoJuy 2024 _ Home_files/
+/Home - Expo Industrias.html
+/Home - Expo Industrias_files/
+/Home - Expo Logisti-k.html
+/Home - Expo Logisti-k_files/
